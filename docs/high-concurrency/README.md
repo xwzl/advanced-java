@@ -30,6 +30,7 @@
 - [如何保证缓存与数据库的双写一致性？](/docs/high-concurrency/redis-consistence.md)
 - [Redis 的并发竞争问题是什么？如何解决这个问题？了解 Redis 事务的 CAS 方案吗？](/docs/high-concurrency/redis-cas.md)
 - [生产环境中的 Redis 是怎么部署的？](/docs/high-concurrency/redis-production-environment.md)
+- [有了解过 Redis rehash 的过程吗？](/docs/high-concurrency/redis-rehash.md)
 
 ## 分库分表
 
@@ -52,23 +53,23 @@
 
 GitHub 技术社区 [Doocs](https://github.com/doocs) 旗下唯一公众号「**Doocs 开源社区**」​，欢迎扫码关注，**专注分享技术领域相关知识及行业最新资讯**。当然，也可以加我个人微信（备注：GitHub），拉你进技术交流群。
 
+<table>
+  <tr>
+    <td align="center" style="width: 200px;">
+      <a href="https://github.com/doocs">
+        <img src="https://fastly.jsdelivr.net/gh/doocs/advanced-java@main/images/qrcode-for-doocs.jpg" style="width: 400px;"><br>
+        <sub>公众平台</sub>
+      </a><br>
+    </td>
+    <td align="center" style="width: 200px;">
+      <a href="https://github.com/yanglbme">
+        <img src="https://fastly.jsdelivr.net/gh/doocs/advanced-java@main/images/qrcode-for-yanglbme.jpg" style="width: 400px;"><br>
+        <sub>个人微信</sub>
+      </a><br>
+    </td>
+  </tr>
+</table>
+
 关注「**Doocs 开源社区**」公众号，回复 **PDF**，即可获取本项目离线 PDF 文档（283 页精华），学习更加方便！
 
-![](./images/pdf.png)
-
-<table>
-    <tr>
-      <td align="center" style="width: 200px;">
-        <a href="https://github.com/doocs">
-          <img src="./images/qrcode-for-doocs.jpg" style="width: 400px;"><br>
-          <sub>公众平台</sub>
-        </a><br>
-      </td>
-      <td align="center" style="width: 200px;">
-        <a href="https://github.com/yanglbme">
-          <img src="./images/qrcode-for-yanglbme.jpg" style="width: 400px;"><br>
-          <sub>个人微信</sub>
-        </a><br>
-      </td>
-    </tr>
-</table>
+<img src="https://fastly.jsdelivr.net/gh/doocs/advanced-java@main/images/pdf.png" style="width: 600px;"><br>
